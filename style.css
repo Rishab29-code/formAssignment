@@ -1,0 +1,58 @@
+body{
+    font-family: Arial, sans-serif;
+}
+.container{
+    background-image: url("./background-5050200_1280.png");
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+}
+.formOuter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 50%;
+    border-radius: 15px;
+}
+#myForm{
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    gap: 15px;
+    width: 60%;
+    height: 89%;
+}
+input{
+    border: none;
+    border-radius: 7px;
+    width: 70%;
+    height: 29px;
+}
+label{
+    color: white;
+}
+.btn{
+    border-radius: 13px;
+    padding: 8px 40px;
+    border: none;
+    cursor: pointer;
+}
+.imgOuter{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgone{
+    width: 70%;
+    height: 85%;
+    border-radius: 10px;
+}
+#error-message{
+    color: white;
+}
